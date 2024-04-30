@@ -2,11 +2,13 @@ import React from 'react';
 import {SafeAreaView, StyleSheet, Text} from 'react-native';
 import Logo from './Logo';
 import Cronometro from './Cronometro';
+import Botao from './Botao';
 const TelaBranca = () => {
     return(
         <SafeAreaView  style={styles.tela}>
             <Logo style={styles.logo} />
             <Cronometro />
+            <Botao />
         </SafeAreaView >
     )
 }
